@@ -15,8 +15,8 @@ public class HelloServiceTest {
     }
 
     @Test
-    public void testGetMessage() {
-        String result = helloService.getMessage();
+    public void testHelloMessage() {
+        String result = helloService.getHello();
         assertEquals("Hello, Spring Boot!", result);
     }
 }
